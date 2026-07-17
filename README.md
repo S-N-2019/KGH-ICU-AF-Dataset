@@ -2,8 +2,8 @@
 
 **Authors:** Sarah Nassar, Nooshin Maghsoodi, Sophia Mannina, Shamel Addas, Stephanie Sibley, Gabor Fichtinger, David Pichora, David Maslove, Purang Abolmaesumi, and Parvin Mousavi
 
-**Paper:** Link To Be Added
+**Paper:** Link To Be Added (IEEE TBME)
 
-**Dataset:** Link To Be Added
+**Dataset:** Link To Be Added (PhysioNet)
 
 **Abstract:** Atrial fibrillation (AF) is the most common cardiac arrhythmia experienced by intensive care unit (ICU) patients and can cause adverse health effects. In this study, we publish a labelled ICU dataset from Kingston General Hospital (KGH) and benchmarks for AF detection. We compared machine learning models across three data-driven artificial intelligence (AI) approaches: feature-based classifiers, deep learning (DL), and ECG foundation models (FMs). This comparison addresses a critical gap in the literature and aims to pinpoint which AI approach is best for high-performing AF detection. Electrocardiograms (ECGs) from a Canadian ICU and the 2021 PhysioNet/Computing in Cardiology Challenge were used to conduct the experiments. Multiple training configurations were tested, ranging from zero-shot inference to transfer learning. Across both datasets, ECG FMs generally performed best, followed by DL, then feature-based classifiers. However, the difference between DL and feature-based classifiers is minimal and highly dependent on the model selected, with feature-based classifiers obtaining a very slightly higher average performance on our ICU test set but DL achieving a higher overall maximum performance. The models that achieved the top F1 score on our ICU test set were InceptionV3 with recurrence plots and a fine-tuned ECGFounder (F1=0.88). This study demonstrates promising potential for using AI to build an automatic patient monitoring system. By publishing our labelled ICU dataset and performance benchmarks, this work enables the research community to continue advancing the state-of-the-art in AF detection in the ICU environment.
